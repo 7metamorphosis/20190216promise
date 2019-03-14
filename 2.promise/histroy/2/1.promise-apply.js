@@ -1,5 +1,5 @@
 let Promise = require('./promise');
-//1) new Promise中可以夹杂着异步罗技
+//1) new Promise中可以夹杂着异步逻辑
 //2) 同一个实例可以多次then
 let p = new Promise(function(resolve,reject){
     setTimeout(function(){
